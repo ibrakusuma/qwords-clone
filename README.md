@@ -16,7 +16,7 @@ cd qwords-clone
 
 # install composer and npm packages
 composer install
-npm install && npm run dev
+npm install
 
 # Start prepare the environment:
 cp .env.example .env // setup database credentials
@@ -26,4 +26,5 @@ php artisan storage:link
 
 # Run your server
 php artisan serve
+npm run dev
 ````
