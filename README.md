@@ -21,8 +21,6 @@ npm install
 # Start prepare the environment:
 cp .env.example .env // setup database credentials
 php artisan key:generate
-php artisan migrate
-php artisan storage:link
 
 # Run your server
 php artisan serve
